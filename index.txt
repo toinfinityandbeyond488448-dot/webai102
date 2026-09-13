@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello World</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+    }
+
+    .container {
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 64px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 20px;
+      opacity: 0.9;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      background: white;
+      color: #764ba2;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      transform: scale(1.05);
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Hello World! 👋</h1>
+    <p>เว็บไซต์แรกของฉันบน GitHub Pages</p>
+
+    <a class="button" href="https://github.com/" target="_blank">
+      Visit GitHub
+    </a>
+  </div>
+
+</body>
+</html>
